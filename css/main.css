@@ -1,0 +1,346 @@
+h1, h2, h3 {
+  font-family: Shadows Into Light; }
+
+h2 a {
+  color: black;
+  font-size: 40px; }
+  h2 a:hover {
+    color: black; }
+
+p {
+  font-family: Architects Daughter; }
+
+header .navbar {
+  background-color: #242424;
+  border: 1px solid #242424; }
+  header .navbar .collapse ul li a {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-family: Shadows Into Light;
+    font-size: 16px; }
+    header .navbar .collapse ul li a:hover {
+      color: #9f0b0b; }
+header .home .fondo {
+  background-size: cover;
+  margin-top: -20px; }
+  header .home .fondo h1 {
+    margin: 20vh auto;
+    padding: 60px 0;
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 55px; }
+    header .home .fondo h1 em {
+      font-size: 75px; }
+header .home .fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; }
+header .home .fondo-1 {
+  background-image: url(../images/img1.jpg); }
+header .home .modulo-alto {
+  padding: 1em;
+  min-height: 90vh;
+  text-align: center; }
+
+.bg-grey {
+  background-color: #242424;
+  padding: 1% 0 0 0; }
+  .bg-grey p {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 16px; }
+    .bg-grey p:hover {
+      color: #9f0b0b; }
+
+main #conocimientos {
+  padding-left: 0%;
+  padding-right: 3%;
+  margin-bottom: 4%; }
+  main #conocimientos .titulo {
+    margin-bottom: 4%; }
+    main #conocimientos .titulo h2 {
+      margin-left: 5%; }
+  main #conocimientos .col-sm-4 {
+    margin-bottom: 1%; }
+    main #conocimientos .col-sm-4 .hab {
+      width: 30%;
+      margin-left: 34%;
+      -webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+      -o-transition-duration: 0.8s;
+      transition-duration: 0.8s;
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;
+      overflow: hidden; }
+      main #conocimientos .col-sm-4 .hab:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg); }
+    main #conocimientos .col-sm-4 .descripcion h3 {
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center; }
+    main #conocimientos .col-sm-4 .descripcion p {
+      text-align: center; }
+main #proyectos {
+  margin-bottom: 6%;
+  padding-left: 2%; }
+  main #proyectos .titulo h2 {
+    margin-top: 2%;
+    margin-left: 4%; }
+  main #proyectos .col-sm-4 {
+    margin-top: 5%; }
+    main #proyectos .col-sm-4 figure {
+      margin-bottom: 5%; }
+      main #proyectos .col-sm-4 figure img {
+        width: 80%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease; }
+        main #proyectos .col-sm-4 figure img:hover {
+          -webkit-transform: rotate(-20deg);
+          -moz-transform: rotate(-20deg);
+          -o-transform: rotate(-20deg); }
+      main #proyectos .col-sm-4 figure .proyecto4 {
+        height: 286px; }
+main #contacto {
+  margin-bottom: 5%; }
+  main #contacto .titulo {
+    margin-bottom: 4%; }
+    main #contacto .titulo h2 {
+      margin-left: 5%; }
+  main #contacto article {
+    padding-left: 6%; }
+    main #contacto article .col-sm-3 a i {
+      width: 150px;
+      height: 150px;
+      background: #242424;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 100px;
+      font-size: 58px;
+      text-align: center;
+      padding-top: 18%;
+      color: #F5F5F5; }
+      main #contacto article .col-sm-3 a i:hover {
+        background-color: #0177B5; }
+main #sobre_mi {
+  margin-bottom: 2%; }
+  main #sobre_mi .titulo {
+    margin-bottom: 4%; }
+    main #sobre_mi .titulo h2 {
+      margin-left: 16%;
+      margin-bottom: 4%; }
+  main #sobre_mi .col-sm-6 p {
+    color: #9f0b0b;
+    font-size: 18px;
+    text-align: center;
+    width: 73%;
+    margin-left: 10%;
+    margin-top: 6%; }
+  main #sobre_mi .col-sm-6 .foto {
+    width: 38%;
+    border-radius: 96px;
+    margin-left: 24%;
+    position: relative;
+    bottom: 11px; }
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 52px; }
+
+  main #sobre_mi .titulo h2 {
+    margin-left: 30%; }
+  main #sobre_mi .col-sm-6 p {
+    margin-left: 15%; }
+  main #sobre_mi .col-sm-6 figure .foto {
+    margin-left: 29%;
+    margin-top: 9%; }
+  main #conocimientos {
+    padding-left: 8%; }
+    main #conocimientos .titulo h2 {
+      margin-left: 22%; }
+  main #proyectos .titulo h2 {
+    margin-left: 30%; }
+  main #proyectos .col-sm-4 {
+    margin-left: 16%;
+    margin-right: 0;
+    padding-right: 0; }
+  main #contacto .titulo h2 {
+    margin-left: 26%; }
+  main #contacto .col-sm-3 {
+    margin-left: 20%; }
+    main #contacto .col-sm-3 a i {
+      width: 140px;
+      height: 140px;
+      padding-top: 15%;
+      margin-bottom: 5%; } }
+@media screen and (max-width: 411px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  header .home .fondo h1 {
+    margin: 5vh auto; }
+
+  main #sobre_mi .titulo {
+    padding-top: 8%; }
+    main #sobre_mi .titulo h2 {
+      margin-left: 33%; }
+  main #sobre_mi .col-sm-6 p {
+    margin-left: 16%; }
+  main #sobre_mi .col-sm-6 figure .foto {
+    margin-left: 32%;
+    margin-top: 6%; }
+  main #conocimientos {
+    padding-left: 8%; }
+    main #conocimientos .titulo h2 {
+      margin-left: 22%; }
+  main #proyectos {
+    margin-top: 8%; }
+    main #proyectos .titulo h2 {
+      margin-left: 32%; }
+    main #proyectos .col-sm-4 {
+      margin-left: 13%;
+      margin-right: 0;
+      padding-right: 0; }
+  main #contacto .titulo h2 {
+    margin-left: 29%; }
+  main #contacto .col-sm-3 {
+    margin-left: 22%; }
+    main #contacto .col-sm-3 a i {
+      width: 140px;
+      height: 140px;
+      padding-top: 14%;
+      margin-bottom: 5%; } }
+@media screen and (max-width: 435px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  header .home .fondo h1 {
+    margin: 5vh auto; }
+
+  main #sobre_mi .titulo {
+    padding-top: 8%; }
+    main #sobre_mi .titulo h2 {
+      margin-left: 33%; }
+  main #sobre_mi .col-sm-6 p {
+    margin-left: 16%; }
+  main #sobre_mi .col-sm-6 figure .foto {
+    margin-left: 32%;
+    margin-top: 6%; }
+  main #conocimientos {
+    padding-left: 8%; }
+    main #conocimientos .titulo h2 {
+      margin-left: 22%; }
+  main #proyectos {
+    margin-top: 8%; }
+    main #proyectos .titulo h2 {
+      margin-left: 32%; }
+    main #proyectos .col-sm-4 {
+      margin-left: 13%;
+      margin-right: 0;
+      padding-right: 0; }
+  main #contacto .titulo h2 {
+    margin-left: 29%; }
+  main #contacto .col-sm-3 {
+    margin-left: 22%; }
+    main #contacto .col-sm-3 a i {
+      width: 140px;
+      height: 140px;
+      padding-top: 14%;
+      margin-bottom: 5%; } }
+@media screen and (max-width: 736px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  header .home .fondo h1 {
+    font-size: 53px; }
+
+  main #sobre_mi {
+    padding-left: 2%;
+    padding-right: 0; }
+    main #sobre_mi .titulo h2 {
+      margin-left: 8%; }
+    main #sobre_mi .col-sm-6 p {
+      width: 76%; }
+    main #sobre_mi .col-sm-6 figure .foto {
+      margin-left: 30%;
+      bottom: 0;
+      margin-top: 6%; }
+  main #conocimientos {
+    padding-left: 2%; }
+  main #proyectos .col-sm-4 {
+    padding-left: 13%;
+    padding-right: 0; }
+  main #contacto {
+    padding-left: 2%; }
+    main #contacto article .col-sm-3 {
+      margin-left: 20%;
+      margin-bottom: 3%; }
+      main #contacto article .col-sm-3 a i {
+        padding-top: 8%; } }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  header .home .fondo h1 {
+    font-size: 53px; }
+
+  main #sobre_mi {
+    padding-left: 2%;
+    padding-right: 0; }
+    main #sobre_mi .titulo h2 {
+      margin-left: 8%; }
+    main #sobre_mi .col-sm-6 p {
+      width: 76%; }
+    main #sobre_mi .col-sm-6 figure .foto {
+      margin-left: 30%;
+      bottom: 0;
+      margin-top: 6%; }
+  main #conocimientos {
+    padding-left: 2%; }
+  main #proyectos .col-sm-4 {
+    padding-left: 13%;
+    padding-right: 0; }
+  main #contacto {
+    padding-left: 2%; }
+    main #contacto article .col-sm-3 {
+      margin-left: 20%;
+      margin-bottom: 3%; }
+      main #contacto article .col-sm-3 a i {
+        padding-top: 8%; } }
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  main #proyectos .col-sm-4 figure a .proyecto4 {
+    height: 237px; } }
+
+/*# sourceMappingURL=main.css.map */

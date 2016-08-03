@@ -1,0 +1,45 @@
+header{
+	.navbar{
+		background-color: $c_gris;
+		border: 1px solid $c_gris;
+		.collapse{
+			ul{
+				li{
+					a{
+						color: $c_blanco;
+						font-weight: 700;
+						font-family: Shadows Into Light;
+						font-size: 16px;
+						&:hover{
+							color: $c_rojo;
+						}
+					}
+				}
+			}
+		}
+	}
+	.home{
+  		.fondo{
+    		@include fondo (cover, -20px);
+    		h1{
+      			margin: 20vh auto;
+      			padding: 60px 0;
+      			color: $c_blanco;
+      			font-weight: 700;
+      			font-size: 55px;
+      			em{
+      				font-size: 75px;
+      			}
+      		}
+		}
+  		.fondo-fixed{
+    		@include fondo-fixed (fixed, no-repeat, center);
+   		}
+  		.fondo-1 {
+    		background-image: url(../images/img1.jpg);
+  		}
+  		.modulo-alto {
+    		@include modulo-alto (1em, 90vh, center);
+  		}
+	}
+}
