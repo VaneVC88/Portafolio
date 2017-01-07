@@ -3,12 +3,42 @@ h1, h2, h3 {
 
 h2 a {
   color: black;
-  font-size: 40px; }
+  font-size: 1.5em; }
   h2 a:hover {
     color: black; }
 
 p {
   font-family: Architects Daughter; }
+
+.scroll--buttons {
+  display: block;
+  width: 0;
+  padding: 1rem 0;
+  line-height: 1;
+  position: fixed;
+  left: 98.5%;
+  top: 50%;
+  right: 0; }
+  .scroll--buttons .scroll--button {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    line-height: 1;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1.125rem;
+    margin-bottom: .5em;
+    border: 2px solid #9f0b0b;
+    background: #9f0b0b;
+    transition: all .2s ease; }
 
 header .navbar {
   background-color: #242424;
@@ -53,16 +83,16 @@ header .home .modulo-alto {
       color: #9f0b0b; }
 
 main #conocimientos {
-  padding-left: 0%;
   padding-right: 3%;
-  margin-bottom: 4%; }
+  margin-bottom: 3rem; }
   main #conocimientos .titulo {
     margin-bottom: 4%; }
     main #conocimientos .titulo h2 {
-      margin-left: 5%; }
-  main #conocimientos .col-sm-4 {
-    margin-bottom: 1%; }
-    main #conocimientos .col-sm-4 .hab {
+      margin-left: 50%;
+      transform: translateX(-17%); }
+  main #conocimientos .common-box {
+    margin-bottom: 6rem; }
+    main #conocimientos .common-box .hab {
       width: 30%;
       margin-left: 34%;
       -webkit-transition-duration: 0.8s;
@@ -74,27 +104,30 @@ main #conocimientos {
       -o-transition-property: -o-transform;
       transition-property: transform;
       overflow: hidden; }
-      main #conocimientos .col-sm-4 .hab:hover {
+      main #conocimientos .common-box .hab:hover {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
         -o-transform: rotate(360deg); }
-    main #conocimientos .col-sm-4 .descripcion h3 {
+    main #conocimientos .common-box .common-box__body h3 {
       font-size: 25px;
       font-weight: 700;
       text-align: center; }
-    main #conocimientos .col-sm-4 .descripcion p {
-      text-align: center; }
+    main #conocimientos .common-box .common-box__body p {
+      text-align: center;
+      margin-bottom: 5%; }
 main #proyectos {
-  margin-bottom: 6%;
+  margin-bottom: 3rem;
   padding-left: 2%; }
   main #proyectos .titulo h2 {
-    margin-top: 2%;
-    margin-left: 4%; }
-  main #proyectos .col-sm-4 {
-    margin-top: 5%; }
-    main #proyectos .col-sm-4 figure {
+    margin-bottom: 3rem;
+    margin-left: 50%;
+    transform: translateX(-17%); }
+  main #proyectos .common-box {
+    margin-top: 3rem;
+    margin-bottom: 5rem; }
+    main #proyectos .common-box figure {
       margin-bottom: 5%; }
-      main #proyectos .col-sm-4 figure img {
+      main #proyectos .common-box figure img {
         width: 80%;
         -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
@@ -102,237 +135,56 @@ main #proyectos {
         -webkit-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease;
         -o-transition: all 0.5s ease; }
-        main #proyectos .col-sm-4 figure img:hover {
+        main #proyectos .common-box figure img:hover {
           -webkit-transform: rotate(-20deg);
           -moz-transform: rotate(-20deg);
           -o-transform: rotate(-20deg); }
-      main #proyectos .col-sm-4 figure .proyecto4 {
+      main #proyectos .common-box figure .proyecto4 {
         height: 286px; }
 main #contacto {
-  margin-bottom: 5%; }
+  margin-bottom: 10rem; }
   main #contacto .titulo {
     margin-bottom: 4%; }
     main #contacto .titulo h2 {
-      margin-left: 5%; }
+      margin-bottom: 6rem;
+      margin-left: 50%;
+      transform: translateX(-15%); }
   main #contacto article {
     padding-left: 6%; }
-    main #contacto article .col-sm-3 a i {
+    main #contacto article .social-link a i {
       width: 150px;
       height: 150px;
       background: #242424;
       -moz-border-radius: 50px;
       -webkit-border-radius: 50px;
       border-radius: 100px;
-      font-size: 58px;
+      font-size: 4.5em;
       text-align: center;
       padding-top: 18%;
       color: #F5F5F5; }
-      main #contacto article .col-sm-3 a i:hover {
+      main #contacto article .social-link a i:hover {
         background-color: #0177B5; }
 main #sobre_mi {
-  margin-bottom: 2%; }
-  main #sobre_mi .titulo {
-    margin-bottom: 4%; }
-    main #sobre_mi .titulo h2 {
-      margin-left: 16%;
-      margin-bottom: 4%; }
-  main #sobre_mi .col-sm-6 p {
-    color: #9f0b0b;
-    font-size: 18px;
-    text-align: center;
-    width: 73%;
-    margin-left: 10%;
-    margin-top: 6%; }
-  main #sobre_mi .col-sm-6 .foto {
-    width: 38%;
-    border-radius: 96px;
-    margin-left: 24%;
-    position: relative;
-    bottom: 11px; }
-
-@media screen and (max-width: 360px) {
-  .container {
-    width: 100%; }
-
-  .row {
-    width: 100%; }
-
-  header .home .fondo h1 {
-    margin: 0vh auto;
-    font-size: 52px; }
-
+  margin-bottom: 3rem; }
   main #sobre_mi .titulo h2 {
-    margin-left: 30%; }
-  main #sobre_mi .col-sm-6 p {
-    margin-left: 15%; }
-  main #sobre_mi .col-sm-6 figure .foto {
-    margin-left: 29%;
-    margin-top: 9%; }
-  main #conocimientos {
-    padding-left: 8%; }
-    main #conocimientos .titulo h2 {
-      margin-left: 22%; }
-  main #proyectos .titulo h2 {
-    margin-left: 30%; }
-  main #proyectos .col-sm-4 {
-    margin-left: 16%;
-    margin-right: 0;
-    padding-right: 0; }
-  main #contacto .titulo h2 {
-    margin-left: 26%; }
-  main #contacto .col-sm-3 {
-    margin-left: 20%; }
-    main #contacto .col-sm-3 a i {
-      width: 140px;
-      height: 140px;
-      padding-top: 15%;
-      margin-bottom: 5%; } }
-@media screen and (max-width: 411px) {
-  .container {
-    width: 100%; }
+    margin-left: 50%;
+    margin-top: 6rem;
+    transform: translateX(-17%); }
+  main #sobre_mi .common-box p {
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-49%);
+    font-size: 1.3em;
+    color: #9f0b0b;
+    margin-top: 2em; }
+  main #sobre_mi .common-box .foto {
+    width: 20%;
+    border-radius: 10em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    margin-left: 50%;
+    transform: translateX(-60%); }
 
-  .row {
-    width: 100%; }
-
-  header .home .fondo h1 {
-    margin: 5vh auto; }
-
-  main #sobre_mi .titulo {
-    padding-top: 8%; }
-    main #sobre_mi .titulo h2 {
-      margin-left: 33%; }
-  main #sobre_mi .col-sm-6 p {
-    margin-left: 16%; }
-  main #sobre_mi .col-sm-6 figure .foto {
-    margin-left: 32%;
-    margin-top: 6%; }
-  main #conocimientos {
-    padding-left: 8%; }
-    main #conocimientos .titulo h2 {
-      margin-left: 22%; }
-  main #proyectos {
-    margin-top: 8%; }
-    main #proyectos .titulo h2 {
-      margin-left: 32%; }
-    main #proyectos .col-sm-4 {
-      margin-left: 13%;
-      margin-right: 0;
-      padding-right: 0; }
-  main #contacto .titulo h2 {
-    margin-left: 29%; }
-  main #contacto .col-sm-3 {
-    margin-left: 22%; }
-    main #contacto .col-sm-3 a i {
-      width: 140px;
-      height: 140px;
-      padding-top: 14%;
-      margin-bottom: 5%; } }
-@media screen and (max-width: 435px) {
-  .container {
-    width: 100%; }
-
-  .row {
-    width: 100%; }
-
-  header .home .fondo h1 {
-    margin: 5vh auto; }
-
-  main #sobre_mi .titulo {
-    padding-top: 8%; }
-    main #sobre_mi .titulo h2 {
-      margin-left: 33%; }
-  main #sobre_mi .col-sm-6 p {
-    margin-left: 16%; }
-  main #sobre_mi .col-sm-6 figure .foto {
-    margin-left: 32%;
-    margin-top: 6%; }
-  main #conocimientos {
-    padding-left: 8%; }
-    main #conocimientos .titulo h2 {
-      margin-left: 22%; }
-  main #proyectos {
-    margin-top: 8%; }
-    main #proyectos .titulo h2 {
-      margin-left: 32%; }
-    main #proyectos .col-sm-4 {
-      margin-left: 13%;
-      margin-right: 0;
-      padding-right: 0; }
-  main #contacto .titulo h2 {
-    margin-left: 29%; }
-  main #contacto .col-sm-3 {
-    margin-left: 22%; }
-    main #contacto .col-sm-3 a i {
-      width: 140px;
-      height: 140px;
-      padding-top: 14%;
-      margin-bottom: 5%; } }
-@media screen and (max-width: 736px) {
-  .container {
-    width: 100%; }
-
-  .row {
-    width: 100%; }
-
-  header .home .fondo h1 {
-    font-size: 53px; }
-
-  main #sobre_mi {
-    padding-left: 2%;
-    padding-right: 0; }
-    main #sobre_mi .titulo h2 {
-      margin-left: 8%; }
-    main #sobre_mi .col-sm-6 p {
-      width: 76%; }
-    main #sobre_mi .col-sm-6 figure .foto {
-      margin-left: 30%;
-      bottom: 0;
-      margin-top: 6%; }
-  main #conocimientos {
-    padding-left: 2%; }
-  main #proyectos .col-sm-4 {
-    padding-left: 13%;
-    padding-right: 0; }
-  main #contacto {
-    padding-left: 2%; }
-    main #contacto article .col-sm-3 {
-      margin-left: 20%;
-      margin-bottom: 3%; }
-      main #contacto article .col-sm-3 a i {
-        padding-top: 8%; } }
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100%; }
-
-  .row {
-    width: 100%; }
-
-  header .home .fondo h1 {
-    font-size: 53px; }
-
-  main #sobre_mi {
-    padding-left: 2%;
-    padding-right: 0; }
-    main #sobre_mi .titulo h2 {
-      margin-left: 8%; }
-    main #sobre_mi .col-sm-6 p {
-      width: 76%; }
-    main #sobre_mi .col-sm-6 figure .foto {
-      margin-left: 30%;
-      bottom: 0;
-      margin-top: 6%; }
-  main #conocimientos {
-    padding-left: 2%; }
-  main #proyectos .col-sm-4 {
-    padding-left: 13%;
-    padding-right: 0; }
-  main #contacto {
-    padding-left: 2%; }
-    main #contacto article .col-sm-3 {
-      margin-left: 20%;
-      margin-bottom: 3%; }
-      main #contacto article .col-sm-3 a i {
-        padding-top: 8%; } }
 @media screen and (max-width: 1024px) {
   .container {
     width: 100%; }
@@ -340,7 +192,464 @@ main #sobre_mi {
   .row {
     width: 100%; }
 
-  main #proyectos .col-sm-4 figure a .proyecto4 {
-    height: 237px; } }
+  .scroll--buttons {
+    left: 97.5%; }
+
+  header .home .fondo h1 {
+    font-size: 53px; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-15%); }
+  main #sobre_mi .common-box .foto {
+    width: 30%;
+    transform: translateX(-50%); }
+  main #sobre_mi .common-box p {
+    width: 60%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 3%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-21%); }
+  main #proyectos .titulo h2 {
+    transform: translateX(-21%); }
+  main #proyectos .common-box figure .proyecto4 {
+    height: 234px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-22%); }
+  main #contacto article {
+    padding-left: 2%; } }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    font-size: 53px; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-20%); }
+  main #sobre_mi .common-box .foto {
+    transform: translateX(-50%); }
+  main #sobre_mi .common-box p {
+    width: 71%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 3%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-27%); }
+  main #proyectos {
+    padding-left: 2%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-22%); }
+    main #proyectos .common-box {
+      padding-left: 2rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 158px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-24%); }
+  main #contacto article {
+    padding-left: 3%; } }
+@media screen and (max-width: 736px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    font-size: 53px; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-20%); }
+  main #sobre_mi .common-box .foto {
+    width: 30%;
+    transform: translateX(-50%); }
+  main #sobre_mi .common-box p {
+    width: 83%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 3%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-32%); }
+  main #proyectos {
+    padding-left: 8%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-30%); }
+    main #proyectos .common-box {
+      padding-left: 8rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 286px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-24%); }
+  main #contacto article {
+    padding-left: 38%; }
+    main #contacto article .social-link {
+      margin-bottom: 3em; }
+      main #contacto article .social-link a i {
+        padding-top: 10%; } }
+@media screen and (max-width: 732px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-24%); }
+  main #sobre_mi .common-box .foto {
+    width: 30%;
+    transform: translateX(-50%); }
+  main #sobre_mi .common-box p {
+    width: 80%;
+    transform: translateX(-44%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 3%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-33%); }
+  main #proyectos {
+    padding-left: 8%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-30%); }
+    main #proyectos .common-box {
+      padding-left: 8rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 286px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-24%); }
+  main #contacto article {
+    margin-left: 0; }
+    main #contacto article .social-link {
+      margin-bottom: 3rem; }
+      main #contacto article .social-link a i {
+        padding-top: 9%; } }
+@media screen and (max-width: 667px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-22%); }
+  main #sobre_mi .common-box .foto {
+    width: 30%;
+    transform: translateX(-48%); }
+  main #sobre_mi .common-box p {
+    width: 93%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 5%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-36%); }
+  main #contacto .titulo h2 {
+    transform: translateX(-24%); }
+  main #contacto article {
+    margin-left: 0; }
+    main #contacto article .social-link a i {
+      padding-top: 12%; } }
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-25%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-48%); }
+  main #sobre_mi .common-box p {
+    width: 90%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 0; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-37%); }
+  main #proyectos {
+    padding-left: 6%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-29%); }
+    main #proyectos .common-box {
+      padding-left: 8rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 286px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-26%); }
+  main #contacto article {
+    margin-left: 35%;
+    transform: translateX(-57%); }
+    main #contacto article .social-link {
+      margin-bottom: 3rem; }
+      main #contacto article .social-link a i {
+        padding-top: 25%; } }
+@media screen and (max-width: 568px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .common-box p {
+    width: 90%;
+    transform: translateX(-45%); }
+  main #conocimientos .titulo h2 {
+    transform: translateX(-40%); }
+  main #contacto .titulo h2 {
+    transform: translateX(-28%); }
+  main #contacto article {
+    margin-left: 32%;
+    transform: translateX(-52%); }
+    main #contacto article .social-link a i {
+      padding-top: 33%; } }
+@media screen and (max-width: 414px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 12vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-33%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-41%); }
+  main #sobre_mi .common-box p {
+    width: 100%;
+    transform: translateX(-43%); }
+  main #conocimientos {
+    padding-left: 10%;
+    padding-right: 0; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-60%); }
+  main #proyectos {
+    padding-left: 0; }
+  main #contacto .titulo h2 {
+    transform: translateX(-41%); }
+  main #contacto article {
+    margin-left: 45%;
+    transform: translateX(-98%); }
+    main #contacto article .social-link a i {
+      padding-top: 100%; } }
+@media screen and (max-width: 412px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 13vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-36%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-45%); }
+  main #sobre_mi .common-box p {
+    width: 90%;
+    transform: translateX(-46%); }
+  main #conocimientos {
+    padding-left: 3%;
+    padding-right: 0; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-54%); }
+  main #proyectos {
+    padding-left: 6%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-42%); }
+    main #proyectos .common-box {
+      padding-left: 5rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 260px; }
+  main #contacto .titulo h2 {
+    transform: translateX(-43%); }
+  main #contacto article {
+    margin-left: 35%;
+    transform: translateX(-68%); }
+    main #contacto article .social-link {
+      margin-bottom: 3rem; }
+      main #contacto article .social-link a i {
+        padding-top: 58%; } }
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 10vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-35%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-43%); }
+  main #sobre_mi .common-box p {
+    width: 100%;
+    transform: translateX(-44%); }
+  main #conocimientos {
+    padding-left: 7%; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-62%); }
+  main #proyectos {
+    padding-left: 9%; }
+  main #contacto .titulo h2 {
+    transform: translateX(-41%); }
+  main #contacto article {
+    margin-left: 39%;
+    transform: translateX(-80%); }
+    main #contacto article .social-link a i {
+      padding-top: 80%; } }
+@media screen and (max-width: 360px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 12vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    transform: translateX(-39%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-43%); }
+  main #sobre_mi .common-box p {
+    width: 97%;
+    transform: translateX(-44%); }
+  main #conocimientos {
+    padding-left: 6%;
+    padding-right: 0; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-68%); }
+  main #proyectos {
+    padding-left: 3%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-43%); }
+    main #proyectos .common-box {
+      padding-left: 6rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 158px; }
+  main #contacto {
+    padding-right: 3rem; }
+    main #contacto .titulo h2 {
+      transform: translateX(-40%); }
+    main #contacto article {
+      padding-left: 0;
+      margin-left: 18rem; }
+      main #contacto article .social-link {
+        margin-bottom: 3rem; }
+        main #contacto article .social-link a i {
+          padding-top: 46%; } }
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .scroll--buttons {
+    display: none; }
+
+  header .home .fondo h1 {
+    margin: 0vh auto;
+    font-size: 3em; }
+
+  main #sobre_mi .titulo h2 {
+    margin-left: 45%;
+    transform: translateX(-32%); }
+  main #sobre_mi .common-box .foto {
+    width: 50%;
+    transform: translateX(-42%); }
+  main #sobre_mi .common-box p {
+    width: 100%;
+    transform: translateX(-43%); }
+  main #conocimientos {
+    padding-left: 6%;
+    padding-right: 0; }
+    main #conocimientos .titulo h2 {
+      transform: translateX(-75%); }
+  main #proyectos {
+    padding-left: 3%; }
+    main #proyectos .titulo h2 {
+      transform: translateX(-46%); }
+    main #proyectos .common-box {
+      padding-left: 5.5rem; }
+      main #proyectos .common-box figure .proyecto4 {
+        height: 158px; }
+  main #contacto {
+    padding-right: 3rem; }
+    main #contacto .titulo h2 {
+      transform: translateX(-48%); }
+    main #contacto article {
+      padding-left: 0;
+      margin-left: 15rem; }
+      main #contacto article .social-link {
+        margin-bottom: 3rem; }
+        main #contacto article .social-link a i {
+          padding-top: 55%; } }
 
 /*# sourceMappingURL=main.css.map */

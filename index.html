@@ -24,10 +24,10 @@
     			</div>
 	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-        				<li><a href="#sobre_mi" class="scroller">SOBRE MÍ</a></li>
-        				<li><a href="#conocimientos" class="scroller">CONOCIMIENTOS</a></li>
-        				<li><a href="#proyectos" class="scroller">PROYECTOS</a></li>
-        				<li><a href="#contacto" class="scroller">CONTACTO</a></li>
+        				<li><a href="#sobre_mi">SOBRE MÍ</a></li>
+        				<li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+        				<li><a href="#proyectos">PROYECTOS</a></li>
+        				<li><a href="#contacto">CONTACTO</a></li>
 					</ul>
     			</div>
   			</div>
@@ -38,6 +38,12 @@
 	 			<em>Vanessa valdebenito</em><br>
 	 			Front-End Developer</h1>
 			</div>
+			<div class="scroll--buttons">
+				<a href="#sobre_mi" class="scroll--button" ></a>
+				<a href="#conocimientos" class="scroll--button" ></a>
+				<a href="#proyectos" class="scroll--button" ></a>
+				<a href="#contacto" class="scroll--button" ></a>
+			</div>
 		</div>		
 	</header>
 
@@ -46,19 +52,20 @@
 
 		<section id="sobre_mi">
 			<div class="row">
-				<article>
-					<div class="titulo">
-						<h2><a href="">Sobre mí</a></h2>
-					</div>
-					<div class="col-sm-6">
-						<p>Mi nombre es Vanessa, tengo 28 años, me gusta el mundo tecnológico, la lucha libre y la música. Para mí es fascinante. Gracias a Laboratoria ahora soy una desarrolladora Front-end. Con disposición para el aprendizaje constante y a trabajar en equipo.</p>
-					</div>
-					<div class="col-sm-6">
-						<figure>
+				<div class="titulo">
+					<h2><a href="">Sobre mí</a></h2>
+				</div>
+				<div class="col-sm-12">
+					<article class="common-box">
+						<figure class="common-box__figure">
 							<img src="images/foto.jpg" alt="" class="foto">
 						</figure>
-					</div>
-				</article>
+						
+						<div class="common-box__body">
+							<p>Mi nombre es Vanessa, tengo 28 años, me gusta el mundo tecnológico, la lucha libre y música. Para mí es fascinante. Gracias a Laboratoria ahora soy una desarrolladora Front-end. Con disposición para el aprendizaje constante y trabajar en equipo.</p>
+						</div>	
+					</article>
+				</div>
 			</div>
 		</section>
 
@@ -67,62 +74,74 @@
 				<div class="titulo">
 					<h2><a href="">Conocimientos</a></h2>
 				</div>
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/html5.png" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>HTML5</h3>
-						<p>Estructura el contenido de tu sitio web</p>
-					</div>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/css3.png" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>CSS3</h3>
-						<p>Incorpora estilos y mejora la presentación de tu sitio</p>
-					</div>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/js.png" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>JAVASCRIPT</h3>
-						<p>Da mayor dinamismo e interactividad a tu sitio</p>
-					</div>
-				</article>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/html5.png" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>HTML5</h3>
+							<p>Estructura el contenido de tu sitio web</p>
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/css3.png" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>CSS3</h3>
+							<p>Incorpora estilos y mejora la presentación de tu sitio</p>
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/js.png" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>JAVASCRIPT</h3>
+							<p>Da mayor dinamismo e interactividad a tu sitio</p>
+						</div>
+					</article>
+				</div>
 			</div>
 			<div class="row">
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/jquery .png" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>JQUERY</h3>
-						<p>Es una biblioteca de JavaScript, diseñada para simplificar la programación de JavaScript con HTML (DOM).</p>
-					</div>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/sass1.png" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>SASS</h3>
-						<p>Es un preprocesador que nos permite escribir CSS como si fuera un lenguaje de programación.</p>
-					</div>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<img src="images/bootstrap.jpg" alt="" class="hab">
-					</figure>
-					<div class="descripcion">
-						<h3>BOOTSTRAP</h3>
-						<p>Es un framework HTML, CSS y JavaScript que podemos utilizar como base para crear nuestros sitios o aplicaciones web.</p>
-					</div>
-				</article>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/jquery .png" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>JQUERY</h3>
+							<p>Es una biblioteca de JavaScript, diseñada para simplificar la programación de JavaScript con HTML (DOM).</p>
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/sass1.png" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>SASS</h3>
+							<p>Es un preprocesador que nos permite escribir CSS como si fuera un lenguaje de programación.</p>
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<img src="images/bootstrap.jpg" alt="" class="hab">
+						</figure>
+						<div class="common-box__body">
+							<h3>BOOTSTRAP</h3>
+							<p>Es un framework HTML, CSS y JavaScript que podemos utilizar como base para crear nuestros sitios o aplicaciones web.</p>
+						</div>
+					</article>
+				</div>
 			</div>	
 		</section>
 
@@ -131,38 +150,50 @@
 				<div class="titulo">
 					<h2><a href="">Proyectos</a></h2>
 				</div>
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/ecomunidad/" target="_blank"><img src="images/proyect1.png" alt=""></a>
-					</figure>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/backyard-sass/" target="_blank"><img src="images/proyect2.jpg" alt=""></a>
-					</figure>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/love-blog/" target="_blank"><img src="images/proyect3.png" alt=""></a>
-					</figure>
-				</article>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/ecomunidad/" target="_blank"><img src="images/proyect1.png" alt=""></a>
+						</figure>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/backyard-sass/" target="_blank"><img src="images/proyect2.jpg" alt=""></a>
+						</figure>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/love-blog/" target="_blank"><img src="images/proyect3.png" alt=""></a>
+						</figure>
+					</article>
+				</div>
 			</div>
 			<div class="row">
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/ejercicio-bootstrap-grid-system/" target="_blank"><img src="images/proyect4.jpg" alt="" class="proyecto4"></a>
-					</figure>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/todoapp/" target="_blank"><img src="images/proyect5.jpg" alt=""></a>
-					</figure>
-				</article>
-				<article class="col-sm-4">
-					<figure>
-						<a href="https://vanevc88.github.io/Peliculas_por_categoria/" target="_blank"><img src="images/proyect6.jpg" alt=""></a>
-					</figure>
-				</article>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/ejercicio-bootstrap-grid-system/" target="_blank"><img src="images/proyect4.jpg" alt="" class="proyecto4"></a>
+						</figure>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/todoapp/" target="_blank"><img src="images/proyect5.jpg" alt=""></a>
+						</figure>
+					</article>
+				</div>
+				<div class="col-sm-4">
+					<article class="common-box">
+						<figure class="common-box__figure">
+							<a href="https://vanevc88.github.io/Peliculas_por_categoria/" target="_blank"><img src="images/proyect6.jpg" alt=""></a>
+						</figure>
+					</article>
+				</div>
 			</div>
 			
 		</section>
@@ -174,24 +205,24 @@
 				</div>
 				<article>
 					<div class="col-sm-3">
-						<figure>
+						<div class="social-link">
 							<a href="https://www.linkedin.com/in/vanessa-valdebenito-0ba743124" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-						</figure>
+						</div>
 					</div>
 					<div class="col-sm-3">
-						<figure>
+						<div class="social-link">
 							<a href="https://github.com/VaneVC88" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-						</figure>
+						</div>
 					</div>
 					<div class="col-sm-3">
-						<figure>
+						<div class="social-link">
 							<a href="https://vanevc.youcanbook.me/" target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i></a>
-						</figure>
+						</div>
 					</div>
 					<div class="col-sm-3">
-						<figure>
+						<div class="social-link">
 							<a href="mailto:vane.vc.78@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-						</figure>
+						</div>
 					</div>
 				</article>
 			</div>
@@ -209,13 +240,10 @@
 	<body>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/smoothscrolling.jquery.js"></script>
-	<script>
-  	$(function() {
-    $("a.scroller").smoothscrolling();
-  	})
-  	</script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	
+  	<!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script-->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
