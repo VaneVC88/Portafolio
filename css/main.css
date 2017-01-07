@@ -578,7 +578,7 @@ main #sobre_mi {
     width: 50%;
     transform: translateX(-43%); }
   main #sobre_mi .common-box p {
-    width: 97%;
+    width: 100%;
     transform: translateX(-44%); }
   main #conocimientos {
     padding-left: 6%;
