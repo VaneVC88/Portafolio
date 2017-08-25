@@ -43,6 +43,7 @@
 
 		#proyectos {
 			padding-left: 7%;
+
 			.titulo {
 				h2 { transform: translateX(-21%); }
 			}
@@ -56,6 +57,7 @@
 
 		#contacto {
 			padding-left: 4em;
+			
 			.titulo {
 				h2 { transform: translateX(-22%); }
 			}
@@ -802,13 +804,13 @@
 
 			article { 
 				padding-left: 0;
-				margin-left: 17rem;
+				margin-left: 18rem;
 
 				.social-link { 
 					margin-bottom: 3rem;
 
 					a {
-    					i { padding-top: 46%; }
+    					i { padding-top: 39%; }
     				}  
 				} 
 			}

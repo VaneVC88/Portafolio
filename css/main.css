@@ -621,11 +621,11 @@ main #sobre_mi {
       transform: translateX(-55%); }
     main #contacto article {
       padding-left: 0;
-      margin-left: 17rem; }
+      margin-left: 18rem; }
       main #contacto article .social-link {
         margin-bottom: 3rem; }
         main #contacto article .social-link a i {
-          padding-top: 46%; } }
+          padding-top: 39%; } }
 @media screen and (max-width: 320px) {
   .container {
     width: 100%; }
