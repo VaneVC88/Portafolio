@@ -33,8 +33,8 @@
 		}
 
 		#conocimientos {
-    		padding-left: 3%;
-    		padding-right: 3%;
+    		padding-left: 6%;
+    		padding-right: 5%;
 
 		 	.titulo {
 		 		h2 { transform: translateX(-21%); }
@@ -42,18 +42,20 @@
 		 }
 
 		#proyectos {
+			padding-left: 7%;
 			.titulo {
 				h2 { transform: translateX(-21%); }
 			}
 
 			.common-box {
 				figure {
-					.proyecto4 { height: 234px; }
+					.proyecto4 { height: 233px; }
 				}
 			}
 		}
 
 		#contacto {
+			padding-left: 4em;
 			.titulo {
 				h2 { transform: translateX(-22%); }
 			}
@@ -96,8 +98,8 @@
 		}
 
 		#conocimientos {
-    		padding-left: 3%;
-    		padding-right: 3%;
+    		padding-left: 6%;
+    		padding-right: 4%;
 
 		 	.titulo {
 		 		h2 { transform: translateX(-27%); }
@@ -105,7 +107,7 @@
 		 }
 
 		#proyectos {
-    		padding-left: 2%;
+    		padding-left: 5.5%;
 
 			.titulo {
 				h2 { transform: translateX(-22%); }
@@ -121,6 +123,9 @@
 		}
 
 		#contacto {
+			padding-left: 2em;
+			padding-right: 3em;
+
 			.titulo {
 				h2 { transform: translateX(-24%); }
 			}
@@ -544,7 +549,7 @@
     		padding-right: 0;
 
 		 	.titulo {
-		 		h2 { transform: translateX(-60%); }
+		 		h2 { transform: translateX(-62%); }
 		 	}
 		 }
 
@@ -561,7 +566,7 @@
 
     			.social-link { 
     				a {
-    					i { padding-top: 100%; }
+    					i { padding-top: .7em; }
     				} 
     			}
 			}
@@ -610,11 +615,11 @@
 		}
 
 		#conocimientos {
-    		padding-left: 3%;
+    		padding-left: 7%;
     		padding-right: 0;
 
 		 	.titulo {
-		 		h2 { transform: translateX(-54%); }
+		 		h2 { transform: translateX(-61%); }
 		 	}
 		 }
 
@@ -705,6 +710,8 @@
 		#proyectos { padding-left: 9%; }
 
 		#contacto {
+			padding-left: 1em;
+
 			.titulo {
 				h2 { transform: translateX(-41%); }
 			}
@@ -787,15 +794,15 @@
 		}
 
 		#contacto {
-			padding-right: 3rem;
+			padding-right: 0;
 
 			.titulo {
-				h2 { transform: translateX(-40%); }
+				h2 { transform: translateX(-55%); }
 			}
 
 			article { 
 				padding-left: 0;
-				margin-left: 18rem;
+				margin-left: 17rem;
 
 				.social-link { 
 					margin-bottom: 3rem;
@@ -876,15 +883,18 @@
 		}
 
 		#contacto {
-			padding-right: 3rem;
+			padding-right: 0;
 
 			.titulo {
-				h2 { transform: translateX(-48%); }
+				h2 { 
+					margin-left: 3.85em;
+					transform: translateX(-48%); 
+				}
 			}
 
 			article { 
 				padding-left: 0;
-				margin-left: 15rem;
+				margin-left: 14rem;
 
 				.social-link { 
 					margin-bottom: 3rem;

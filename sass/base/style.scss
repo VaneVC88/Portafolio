@@ -1,15 +1,15 @@
-h1, h2, h3 { font-family: Shadows Into Light; }
+h1, h2, h3 { font-family: 'Rancho', cursive; }
 
 h2 {
 	a {
-		color: black;
-		font-size: 1.5em;
+		color: #393939;
+		font-size: 1.7em;
 
-		&:hover { color: black; }
+		&:hover { color: #393939; }
 	}
 }
 
-p { font-family: Architects Daughter; }
+p { font-family: 'Gudea', sans-serif; text-align: center; }
 
 .scroll--buttons {
     display: block;
@@ -17,7 +17,7 @@ p { font-family: Architects Daughter; }
     padding: 1rem 0;
     line-height: 1;
     position: fixed;
-    left: 98.5%;
+    left: 98.8%;
     top: 50%;
     right: 0;
 
@@ -38,8 +38,8 @@ p { font-family: Architects Daughter; }
     	height: 1rem;
     	border-radius: 1.125rem;
     	margin-bottom: .5em;
-    	border: 2px solid $c_rojo;
-    	background: $c_rojo;
+    	border: 2px solid darkgrey;
+    	background: transparent;
     	transition: all .2s ease;
 	}
 }

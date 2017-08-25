@@ -8,7 +8,7 @@ main {
 
 			h2 { 
 				margin-left: 50%;
-    			transform: translateX(-17%); 
+    			transform: translateX(-23%); 
     		}
 		}
 
@@ -96,6 +96,7 @@ main {
 
 	#contacto {
 		margin-bottom: 10rem;
+		padding-right: 3em;
 
 		.titulo {
 			margin-bottom: 4%; 
@@ -108,7 +109,7 @@ main {
 		}
 
 		article {
-			padding-left: 6%;
+			padding-left: 4%;
 
 			.social-link {
 				a {
@@ -121,11 +122,11 @@ main {
 						border-radius: 100px;
 						font-size: 4.5em;
 						text-align: center;
-						padding-top: 18%;
+						padding-top: .7em;
 						color: $c_blanco;
 
 						&:hover {
-							background-color: $c_celeste;
+							background-color: #E1BE5D;
 						}
 					}
 				}
@@ -138,7 +139,7 @@ main {
 
 		.titulo {
 			h2 {
-				margin-left: 50%;
+				margin-left: 49%;
     			margin-top: 6rem;
     			transform: translateX(-17%);
 			}
@@ -150,7 +151,7 @@ main {
     			margin-left: 50%;
     			transform: translateX(-49%);
     			font-size: 1.3em;
-				color: $c_rojo;
+				color: #333;
 				margin-top: 2em;
 			}
 

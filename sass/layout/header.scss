@@ -2,22 +2,41 @@ header{
 	.navbar{
 		background-color: $c_gris;
 		border: 1px solid $c_gris;
+		border-radius: 0;
 		.collapse{
 			ul{
 				li{
 					a{
 						color: $c_blanco;
 						font-weight: 700;
-						font-family: Shadows Into Light;
+						font-family: 'Rancho', cursive;
 						font-size: 16px;
 						&:hover{
-							color: $c_rojo;
+							color: #E1BE5D;
 						}
 					}
 				}
 			}
 		}
 	}
+
+	.navbar-default {
+		.navbar-toggle {
+    		border-color: transparent;
+    		&:hover { background: #393939; }
+    	}
+    	.navbar-collapse{
+    		border: transparent;
+    	}
+	}
+	.navbar-default {
+		.navbar-toggle {
+			.icon-bar {
+    			background-color: #f8faf9;
+    		}
+    	}
+	}
+
 	.home{
   		.fondo{
     		@include fondo (cover, -20px);
@@ -27,8 +46,10 @@ header{
       			color: $c_blanco;
       			font-weight: 700;
       			font-size: 55px;
+      			background-color: rgba(255,255,255,0.5);
+    			color: #555;
       			em{
-      				font-size: 75px;
+      				font-size: 72px;
       			}
       		}
 		}
@@ -36,7 +57,7 @@ header{
     		@include fondo-fixed (fixed, no-repeat, center);
    		}
   		.fondo-1 {
-    		background-image: url(../images/img1.jpg);
+    		background-image: url(../images/img2.jpg);
   		}
   		.modulo-alto {
     		@include modulo-alto (1em, 90vh, center);
